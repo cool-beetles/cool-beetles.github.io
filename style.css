@@ -1,8 +1,8 @@
 :root {
-  --background: #e8f1e9;
-  --username-link-color: #3d5a58;
-  --description-color: #1c292f;
-  --skills-color: #5d4b4b;
+  --username-link-color: black;
+  --description-color: black;
+  --skills-color: black;
+  --link-hover-color: grey;
 }
 
 html {
@@ -12,20 +12,32 @@ html {
 
 body {
   font-family: rokkit, helvetica, roboto, sans-serif;
-  background-color: var(--background);
   text-align: center;
   margin: 0;
   padding: 0;
   font-size: 100%;
+  width: 100%;
+  background-image: radial-gradient(ellipse farthest-corner at right top, #C4CC76 0%, #9C9CA0 100%);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+ul,li {
+  margin:0;
+  padding:0;
 }
 
 a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--link-hover-color);
+}
+
 h1 {
   display: block;
-  line-height: 1.4;
+  line-height: 1.2;
   font-size: 90px;
   margin: 0;
 }
@@ -33,23 +45,20 @@ h1 {
 h2 {
   font-size: 30px;
   margin: 0;
+  padding: 5px;
   color: var(--description-color);
-}
-
-span {
-  text-align: center;
-  font-size: 25px;
 }
 
 .wrapper {
   width: 900px;
   min-height: 400px;
-  margin: 100px auto 20px;
+  margin: 50px auto 20px;
 }
 
 .firstname {
   vertical-align: baseline;
   color: var(--username-link-color);
+  transition-duration: 1s;
 }
 
 .profil-picture {
@@ -57,11 +66,19 @@ span {
   height: 200px;
   border-radius: 70px 35px;
   float: right;
+  margin: 55px;
 }
 
 .skills-section {
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+.intro {
+  font-size: 25px;
+  text-align: left;
 }
 
 .skills-list {
@@ -69,8 +86,6 @@ span {
   color: var(--skills-color);
   list-style: none;
   margin: 15px;
-}
-
-.skills-links {
-   color: var(--skills-color); 
+  line-height: 1.4;
+  font-size: 17px;
 }
