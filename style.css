@@ -61,6 +61,8 @@ h2 {
 }
 
 .profil-picture {
+  background-image: url(images/profil-picture.JPG);
+  background-size: cover;
   width: 150px;
   height: 150px;
   border-radius: 100px;
@@ -174,6 +176,14 @@ h2 {
   margin: auto;
   color: pink;
   width: 200px;
+}
+
+.description {
+  font-size: 17px;
+  margin: auto;
+  text-align: left;
+  color: pink;
+  width: 150px;
 }
 
 .description-oop {
