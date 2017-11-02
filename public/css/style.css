@@ -1,0 +1,190 @@
+:root {
+  --username-link-color: black;
+  --description-color: black;
+  --skills-color: black;
+  --link-hover-color: grey;
+}
+
+html {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  font-family: rokkit, helvetica, roboto, sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+ul,li {
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+h1 {
+  display: block;
+  line-height: 1.2;
+  font-size: 45px;
+  margin: 30px 50px 20px;
+  text-align: left;
+  float: left;
+  text-decoration: pink underline wavy;
+}
+
+h2 {
+  font-size: 15px;
+  margin: 50px;
+  padding: 5px;
+  color: var(--description-color);
+  text-align: left;
+}
+
+.wrapper {
+  width: 700px;
+  min-height: 400px;
+  margin: 30px auto;
+  border: solid white;
+  border-radius: 5px;
+  box-shadow: 0 1px 10px grey;
+}
+
+.profil-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  float: right;
+  margin: 30px 50px 0 0;
+}
+
+.hashtag {
+  color: pink;
+}
+
+.skills-section {
+  margin: auto;
+  padding: auto;
+  font-size: 25px;
+  width: 600px;
+}
+
+.git-logo {
+  width: 70px;
+  height: 30px;
+  margin: 20px;
+}
+
+.github-logo {
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+}
+
+.htmlcss-logo {
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+}
+
+.ruby-logo {
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+}
+
+.oop-logo {
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+}
+
+.heroku-logo {
+  width: 150px;
+  height: 60px;
+  margin: 20px;
+}
+
+.intro {
+  font-size: 15px;
+  text-align: left;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.intro-skills {
+  margin-top: 50px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.pink-border{
+  border: solid pink;
+  background-color: pink;
+  color: white;
+}
+
+.skills-list {
+  text-align: left;
+  list-style: none;
+  font-size: 17px;
+}
+
+.skills-list-left {
+  position: relative;
+  height: 100px;
+  float: left;
+  text-align: left;
+}
+
+.skills-list-center {
+  height: 136.65px;
+  width: 200px;
+  position: relative;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.skills-list-right {
+  position: relative;
+  float: left;
+  height: 100px;
+}
+
+.row-table {
+  width: 1000px;
+  margin: auto;
+  display: table;
+  text-align: center;
+}
+
+.description-git {
+  font-size: 17px;
+  margin: auto;
+  color: pink;
+  width: 200px;
+}
+
+.description-oop {
+  font-size: 17px;
+  margin: auto;
+  color: pink;
+  width: 250px;
+}
+
+.line-img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
