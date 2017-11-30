@@ -3,6 +3,7 @@
   --description-color: black;
   --skills-color: black;
   --link-hover-color: grey;
+  --pink-elements: #e263a4;
 }
 
 html {
@@ -40,7 +41,7 @@ h1 {
   margin: 30px 50px 20px;
   text-align: left;
   float: left;
-  text-decoration: pink underline wavy;
+  text-decoration: var(--pink-elements) underline wavy;
 }
 
 h2 {
@@ -69,7 +70,7 @@ h2 {
 }
 
 .hashtag {
-  color: pink;
+  color: var(--pink-elements);
 }
 
 .skills-section {
@@ -129,8 +130,8 @@ h2 {
 }
 
 .pink-border{
-  border: solid pink;
-  background-color: pink;
+  border: solid var(--pink-elements);
+  background-color: var(--pink-elements);
   color: white;
 }
 
@@ -172,7 +173,7 @@ h2 {
 .description-git {
   font-size: 17px;
   margin: auto;
-  color: pink;
+  color: var(--pink-elements);
   width: 200px;
 }
 
@@ -180,14 +181,14 @@ h2 {
   font-size: 17px;
   margin: auto;
   text-align: left;
-  color: pink;
+  color: var(--pink-elements);
   width: 150px;
 }
 
 .description-oop {
   font-size: 17px;
   margin: auto;
-  color: pink;
+  color: var(--pink-elements);
   width: 250px;
 }
 
